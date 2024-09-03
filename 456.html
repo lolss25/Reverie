@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Sister</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Pretty Ate</h1>
+        <p>Spend your time finding beauty within everything. It exists everywhere</p>
+    </header>
+    <main>
+        <section class="gallery">
+            <article class="gallery-item">
+                <img src="photos/1.jpg" alt="Continue">
+                <h2>Continue</h2>
+                <p>You have come so far. You have learned to let go of what was not right for you. You have learned to step out of the boundaries of your worries, believing that in time, it all would be woven together beautifully. It has not been an easy road, but it has opened your eyes to all of the possibilities of what this life could be, even in your uncertainty.<br><br>
+                So continue to give your all. In all things great and small, continue to see that even in your thankless, unnoticed work, you are still sowing seeds. You are still making mindful and intentional steps towards where you were meant to be. You are still living a life filled with meaning.<br><br>
+                There might be days where you feel that your work is in vain, and there might be moments where you do not know what to do with all of the sudden change, but you are wrapped in endless, boundless grace all the same, giving you strength every day to breathe deep and keep going, anyway.</p>
+                
+                <audio controls>
+                    <source src="audio/justthewayyouare.mp3" type="audio/mpeg">
+                </audio>
+            </article>
+            <article class="gallery-item">
+                <img src="photos/4.jpg" alt="The Poem I Wanted to write">
+                <h2>You're the poem I wanted to write</h2>
+                <p>You are sunlight falling through trees. You are laughter that breaks through sadness. You are the breeze on a too-warm day. You are clarity in the midst of confusion.<br><br>
+                You are not the world, but you are everything that makes the world good. Without you, my life would still exist, but that's all it would manage to do.</p>
+            </article>
+            <article class="gallery-item">
+                <img src="photos/3.jpg" alt="Sanctuary">
+                <h2>Sanctuary</h2>
+                <p>The truth is, I cannot give you reasons, and I cannot answer your questions but what I can tell you is this - each moment that broke you, made you. All those tears you shed, cleansed your heart of pain. Each broken piece joined together to create a new you. Someone stronger. Someone more powerful and fierce. So, no. I cannot give you a reason as to why you went through so much pain, but I can tell you the purpose. The purpose was always for you to grow, change, heal and become the best version of yourself. The purpose was for you to become the person that you are today. And that itself should keep you going. That itself should be reason for you to rise once more.<br><br>
+                You may not be where you want to be, but you are somewhere. When chasing after big dreams, you must measure your progress by how far you've come, not by how far you still must go. So, if your dreams are too far out of sight, be happy because that means they are big. You are not stronger than fate, but don't be too quick to judge where fate leads you. Keep moving. You may not end up where you set your sails for, but your hard work will get you to a destination that's no less great. Put your best effort forward and own it. Don't fight fate. Befriend it.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>I Love You</p>
+    </footer>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            color: #4a5d23; 
+            background-color: #2e3a2a; 
+            line-height: 1.6;
+            flex: 1;
+        }
+
+        header {
+            background-image: url('photos/kensho.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;  
+            color: #e0e0e0; 
+            padding: 20px;
+            text-align: center;
+            position: relative; 
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #4a5d23; 
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #40534C;
+        }
+
+        main {
+            padding: 20px;
+            flex: 1;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .gallery-item {
+            background-color: #3b4c38; 
+            border: 1px solid #5a6e4e; 
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            width: calc(33.333% - 20px);
+            box-sizing: border-box;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.03); 
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #5a6e4e; 
+        }
+
+        .gallery-item h2 {
+            font-size: 1.5em;
+            margin-top: 0.5em;
+            color: #c0d0c0; 
+        }
+
+        .gallery-item p {
+            font-size: 1em;
+            color: #9baf9b; 
+        }
+
+        footer {
+            position: relative;
+            width: 100%;
+            height: 200px; 
+            background-image: url('photos/footer.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            color: #e0e0e0; 
+            text-align: center;
+            padding: 0; 
+            border-top: 3px solid #5a6e4e; 
+            box-shadow: inset 0 -4px 8px rgba(0, 0, 0, 0.2); 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box; 
+        }
+
+        audio {
+            margin-top: 10px; 
+            width: 100%; 
+        }
+    </style>
+</body>
+</html>

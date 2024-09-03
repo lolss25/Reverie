@@ -1,0 +1,108 @@
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            color: #4a5d23; 
+            background-color: #2e3a2a; 
+            line-height: 1.6;
+            flex: 1;
+        }
+
+        header {
+            background-image: url('photos/kensho.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;  
+            color: #e0e0e0; 
+            padding: 20px;
+            text-align: center;
+            position: relative; 
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #4a5d23; 
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #40534C;
+        }
+
+        main {
+            padding: 20px;
+            flex: 1;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .gallery-item {
+            background-color: #3b4c38; 
+            border: 1px solid #5a6e4e; 
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            width: calc(33.333% - 20px);
+            box-sizing: border-box;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.03); 
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #5a6e4e; 
+        }
+
+        .gallery-item h2 {
+            font-size: 1.5em;
+            margin-top: 0.5em;
+            color: #c0d0c0; 
+        }
+
+        .gallery-item p {
+            font-size: 1em;
+            color: #9baf9b; 
+        }
+
+        footer {
+            position: relative;
+            width: 100%;
+            height: 200px; 
+            background-image: url('photos/footer.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            color: #e0e0e0; 
+            text-align: center;
+            padding: 0; 
+            border-top: 3px solid #5a6e4e; 
+            box-shadow: inset 0 -4px 8px rgba(0, 0, 0, 0.2); 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box; 
+        }
+
+        audio {
+            margin-top: 10px; 
+            width: 100%; 
+        }
+    </style>
